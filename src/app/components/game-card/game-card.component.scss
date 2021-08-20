@@ -1,0 +1,34 @@
+.game-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.game-card {
+  margin: 1rem;
+  background-color: #cccccc8a;
+  background-size: contain;
+  width: 200px;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+
+  &__image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+    border-radius: 1rem;
+  }
+
+  &__content {
+    margin: 1rem;
+    font-size: 0.75rem;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
